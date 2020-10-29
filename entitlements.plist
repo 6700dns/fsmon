@@ -1,46 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>platform-application</key>
-	<true/>
-	<key>task_for_pid-allow</key>
-	<true/>
-	<key>get-task-allow</key>
-	<true/>
-	<key>dynamic-codesigning</key>
-	<true/>
-	<key>com.apple.private.skip-library-validation</key>
-	<true/>
-	<key>com.apple.private.security.no-container</key>
-	<true/>
-	<key>com.apple.private.mis.beta-install</key>
-	<true/>
-	<key>com.apple.private.ind.client</key>
-	<true/>
-    <key>aps-environment</key>
-    <string>production</string>
-    <key>com.apple.features.all-access</key>
-    <true/>
-    <key>com.apple.fileprovider.alternate-contents</key>
-    <true/>
-    <key>com.apple.keystore.device</key>
-    <true/>
-    <key>com.apple.mobile.deleted.AllowFreeSpace</key>
-    <true/>
-    <key>com.apple.nano.nanoregistry</key>
-    <true/>
-    <key>com.apple.private.appstored</key>
-    <array>
-        <string>IAPHistory</string>
-        <string>Install</string>
-        <string>Library</string>
-    </array>
-    <key>com.apple.private.canModifyAppLinkPermissions</key>
-    <true/>
-    <key>com.apple.private.coreservices.canmaplsdatabase</key>
-    <true/>
-    <key>com.apple.private.coreservices.canopenactivity</key>
-    <true/>
-</dict>
+ <dict>
+  <key>platform-application</key>
+  <true/>
+  <key>com.apple.private.security.container-required</key>
+  <false/>
+ </dict>
 </plist>
